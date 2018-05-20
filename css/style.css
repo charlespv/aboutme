@@ -25,18 +25,25 @@ body{
     }
 
     header nav a {
-        font-size: 0.625rem;
+        font-size: 0.700rem;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         color: #747474;
         text-decoration: none;
-        margin: 0rem 1rem;
+        margin: 0rem 0.5rem;
+        opacity: 0.6;
+        transition: 0.3s;
+        
     }
+
+    header>nav>a:hover {opacity: 1;}
+
 
     h1{
         font-size: 1.75rem;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
+        color:#105685
     }
 
     h2{
@@ -88,11 +95,17 @@ body{
         text-decoration: none;
         display: flex;
         align-items: center;
-        width: 13rem;
+        flex: 1;
+        /*width: 13rem;*/
+        opacity: 0.6;
+        transition: 0.3s;
     }
 
+
+    body > main > section > li > ul > a:hover {opacity: 1;}
+
     body > main > section > li > ul > a> img{
-        height: 2rem;
+        height: 3rem;
         width: auto;
         margin: 0.5rem;
         margin-left: 0.1rem;
@@ -100,7 +113,7 @@ body{
 
     body > main > section  li > ul > a > span{
         text-decoration: none;
-        font-size: 0.625rem;
+        font-size: 0.8rem;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         color: #747474;
